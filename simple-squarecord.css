@@ -1,0 +1,57 @@
+/* --- Squarecord Simplified --- */
+*,
+*::before,
+*::after,
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-track {
+    border-radius: 0px !important;
+    mask: none !important;
+    -webkit-mask: none !important;
+}
+.svg-1G_H_8 rect[style],
+.svg-1G_H_8 circle[style] {
+    display: none;
+}
+.slider-HJFN2i rect {
+    rx: 0;
+}
+/*  */
+/* Voice pfp fix */
+.voiceUser-3nRK-K .userAvatar-3Hwf1F {
+    border: none;
+}
+/*  */
+/* Voice Member count FIX */
+.total-1c5KCN {
+    padding-left: 4px;
+}
+.total-1c5KCN::after {
+    display: none;
+}
+/*  */
+/* Theme checkmark fix */
+.checkmarkCircle-2LCcdI {
+    background-color: var(--brand-500);
+}
+/*  */
+/* Radio buttons (settings) fix */
+.radioBar-1XgZqD svg {
+    border: 2px solid white;
+}
+.radioBar-1XgZqD svg path,
+.radioBar-1XgZqD circle {
+    display: none;
+}
+.radioBar-1XgZqD div {
+    position: relative;
+}
+.radioBar-1XgZqD div:has(circle)::before{
+    content:"";
+    position:absolute;
+    background:currentColor;
+    width:13px;
+    height:13px;
+    left:25%;
+    top: 22%;
+}
+/*  */
